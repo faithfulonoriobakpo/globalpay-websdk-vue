@@ -46,7 +46,7 @@ const erroHandler = (error: GeneratePaymentLinkError) => {console.log(error)}
 
 <GlobalPay 
     :isLive="false"
-    :apiKey="'TJQO0B60D17MDQD9HK2A'"
+    :apiKey="'your-api-key'"
     :buttonText="'Pay'"
     :buttonStyle="style"
     :payload="payload"
